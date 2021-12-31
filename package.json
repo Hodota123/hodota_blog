@@ -23,9 +23,9 @@
   "author": "sondn",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sondnpt00343/nodejs_blog/issues"
+    "url": "https://github.com/Hodota123/hodota_blog/issues"
   },
-  "homepage": "https://github.com/sondnpt00343/nodejs_blog#readme",
+  "homepage": "https://github.com/Hodota123/hodota_blog#readme",
   "lint-staged": {
     "src/**/*.{js,json,scss}": "prettier --single-quote --trailing-comma all --tab-width 4 --write"
   },
