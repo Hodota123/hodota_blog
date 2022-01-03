@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Hodota123/nodejs_blog.git"
+    "url": "https://github.com/Hodota123/hodota_blog.git"
   },
   "keywords": [
     "f8",
@@ -20,7 +20,7 @@
     "nodejs",
     "nodejs"
   ],
-  "author": "",
+  "author": "Vuong Phu Chi",
   "license":"src",
   "bugs": {
     "url": "https://github.com/Hodota123/hodota_blog/issues"
