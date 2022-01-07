@@ -2,11 +2,14 @@ const mongoose = require('mongoose');
 
 async function connect() {
     try {
-        await mongoose.connect('mongodb://localhost:27017/f8_education_dev', {
-            useNewUrlParser: true,
-            useUnifiedTopology: true,
-            useCreateIndex: true,
-        });
+        await mongoose.connect(
+            'mongodb+srv://hodota123:Minhdang123@cluster0.b9kgs.mongodb.net/testDB?retryWrites=true&w=majority',
+            {
+                useNewUrlParser: true,
+                useUnifiedTopology: true,
+                useCreateIndex: true,
+            },
+        );
         console.log('Connect successfully!!!');
     } catch (error) {
         console.log('Connect failure!!!');
