@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 async function connect() {
     try {
         await mongoose.connect(
-            'mongodb+srv://hodota123:Minhdang123@cluster0.b9kgs.mongodb.net/testDB?retryWrites=true&w=majority',
+            'mongodb+srv://hodota123:Minhdang123@cluster0.b9kgs.mongodb.net/testDB',
             {
                 useNewUrlParser: true,
                 useUnifiedTopology: true,
